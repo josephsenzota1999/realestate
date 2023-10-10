@@ -1,0 +1,221 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS (and SCSS, if configured) file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+body{
+    font-family: arial;
+}
+.collapse ul li{
+    padding: 16px;
+    position: relative;
+    left: 400px;
+    color: white;
+}
+
+.collapse ul li a:hover{
+    color: #90a3f5;
+}
+
+.container-fluid .navbar-brand{
+    font-weight: bold;
+    font-size: 29px;
+    color:white;
+    position: relative;
+    left: 20px;
+}
+.image1{
+    position: relative;
+    top: -89px;
+}
+nav{
+    z-index: 12000;
+}
+
+.collapse ul li a{
+    font-weight: 600;
+    color: white;
+}
+.one{
+    position: relative;
+    top: -700px;
+    left:  20px;
+    z-index: 12000;
+}
+.one h1{
+    font-weight: bold;
+    font-size: 50px;
+}
+.one p{
+    position: relative;
+    top: 29px;
+    font-family: arial;
+}
+.search{
+    position: relative;
+    top: -640px;
+    left: 10px;
+    z-index: 12000;
+}
+.search .row .col-md input{
+    padding:  20px;
+    border-radius: 40px;
+    width:  450px;
+    font-size: 18px;
+    font-family: arial;
+    font-weight: 500;
+}
+.fa-search{
+    position: relative;
+    top: -45px;
+    font-size: 18px;
+    left: 400px;
+    z-index: 12000;
+    color: #90a3f5;
+}
+/* Slide up animation */
+.slide-up {
+      position: relative;
+      top: 100px; /* Start position */
+      opacity: 0;
+      transition: top 0.s ease-in-out, opacity 0.7s ease-in-out;
+}
+
+    /* Define the animation keyframes */
+    @keyframes slideUp {
+      0% {
+        top: 100px; /* Start position */
+        opacity: 0;
+      }
+      100% {
+        top: 0; /* End position */
+        opacity: 1;
+      }
+    }
+
+    .animate-slide-up {
+      animation: slideUp 0.7s ease-in-out forwards;
+    }
+
+
+    
+
+
+
+    
+.services{
+     position: relative;
+/*    top:-270px;*/
+}
+.services h1{
+    font-weight: bold;
+    font-family: arial;
+    position: relative;
+    top: 100px;
+}
+.services p{
+    position: relative;
+    top: 125px;
+    color: gray;
+    font-size: 17px;
+    font-weight: 500;
+    font-family: arial;
+}
+.ar{
+    position: relative;
+    top: 200px;
+}
+.ar h1{
+    font-weight: bold;
+}
+.ar p{
+    font-size: 14px;
+    font-weight: 400;
+    color: gray;
+    position: relative;
+    top: 10px;
+}
+
+.map{
+    border: 1px solid gray;
+    width: 100px;
+    padding: 35px;
+    border-radius: 100%;
+    float: center;
+    position: relative;
+    left: 90px;
+    top: -20px;
+    background-color: #4b69bd;
+    color: white;
+    border-color: #4b69bd;
+}
+.section1{
+    position: relative;
+    height: 500px;
+    margin-top: -380px;
+    background-color:#f8f9fa ;
+}
+.fa-map{
+    font-size: 30px;
+    position: relative;
+    left: -3px;
+}
+.fa-user-secret{
+    font-size: 30px;
+    position: relative;
+    left: -3px;
+}
+
+
+.fa-home{
+    font-size: 30px;
+    position: relative;
+    left: -3px;
+}
+.fa-credit-card-alt{
+    font-size: 30px;
+    position: relative;
+    left: -3px;
+}
+
+@keyframes slideUp {
+  0% {
+    transform: translateY(50px); /* Start position, adjust as needed */
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0); /* End position */
+    opacity: 1;
+  }
+}
+
+/* Apply the animation to elements with the "slide-up" class */
+.slide-ups {
+  animation: slideUp 0.5s ease-in-out forwards; /* Adjust the duration and timing function as needed */
+}
+
+@keyframes slideUp {
+  0% {
+    transform: translateY(50px); /* Start position, adjust as needed */
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0); /* End position */
+    opacity: 1;
+  }
+}
+
+/* Apply the animation to elements with the "slide-up" class */
+.slide-up1 {
+  animation: slideUp 0.9s ease-in-out forwards; /* Adjust the duration and timing function as needed */
+}
